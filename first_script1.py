@@ -1,2 +1,1 @@
-print("Hello, NIGERIA!")
-# SINI ISAAC
+print("hello Nigeria")
