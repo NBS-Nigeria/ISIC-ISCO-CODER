@@ -1,6 +1,3 @@
-country = "Canada"
-print(f"Hello, {country}! Welcome to your first Python project.")
-
 #WEEK 3
 proffession = "Doctor"
 networth = 2300000.02
