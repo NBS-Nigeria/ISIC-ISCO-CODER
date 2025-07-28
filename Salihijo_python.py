@@ -1,7 +1,3 @@
-
-country = "Canada"
-print(f"Hello, {country}! Welcome to your first Python project.")
-
 #WEEK 3
 proffession = "Doctor"
 networth = 2300000.02
@@ -33,9 +29,3 @@ Scores = {"Ahmed":96, "Susan":52, "Jibril":40}
 print ("")
 print ("Results")
 print (Scores)
-=======
-
-country = "Haiti"
-
-print(f"Hello, {country}! Welcome to your first Python project.")
-
