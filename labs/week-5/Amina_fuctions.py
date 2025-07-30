@@ -67,7 +67,7 @@ print(filter_country_year("Kenya", 1602))
 
 # 6.
 # Save the updated DataFrame to a new CSV file
-df.to_csv("Amina_gapminder_final.csv", index=False)
+df.to_csv("data/Amina_gapminder_final.csv", index=False)
 
 
 
