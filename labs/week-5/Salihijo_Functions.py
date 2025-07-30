@@ -66,7 +66,7 @@ print(filter_country_year("Zimbabwe", 1602))
 
 # 6.
 # Save the updated DataFrame to a new CSV file
-df.to_csv("Salihijo_gapminder_final.csv", index=False)
+df.to_csv("data/Salihijo_gapminder_final.csv", index=False)
 
 
 
