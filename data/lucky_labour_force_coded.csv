@@ -1,0 +1,6 @@
+id,name,occupation,cleaned_occupation,word_count,ISCO_code
+1,Ann,"AEDC, Nepa Elect Engr2 AEDC",aedc electrician engineer nepa,"[('aedc', 2), ('nepa', 1), ('electrician', 1), ('engineer', 1)]",ISCO-7411
+2,Akpos,"Civil servant, (account)",accountant civil servant,"[('civil', 1), ('servant', 1), ('accountant', 1)]",ISCO-4110
+3,Sultan,"buying and selling, market trader",buying market selling trader,"[('buying', 1), ('selling', 1), ('market', 1), ('trader', 1)]",ISCO-5221
+4,Akanmu,Graphic Designer - Printing press,designer graphic press printing,"[('graphic', 1), ('designer', 1), ('printing', 1), ('press', 1)]",ISCO-2166
+5,Okadigbo,Gaenacology Spec,gaenacology specialist,"[('gaenacology', 1), ('specialist', 1)]",ISCO-2211
