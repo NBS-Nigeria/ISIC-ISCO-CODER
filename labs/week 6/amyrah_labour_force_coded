@@ -1,0 +1,93 @@
+
+import pandas as pd
+import random
+import string
+from collections import Counter
+
+# 1. Simulate your dataset
+first_names = ['Amina', 'Moses', 'Salihijo', 'Ernest', 'Ammira', 'Sini', 'Stanley', 'Siyudi', 'Lucky', 'Zarah']
+occupations = [
+    'a teacher1', 'a  doctor', 'a software-engineer', 'a nurse', 'driver for a car', 'a farmer', 'an accountant',
+    'a car mechanic', 'a chef', 'a police officer ', 'a  data analyst', 'a construction worker', 'an artist',
+    'a sales-manager', 'a cleaner ', 'a waiter', 'an electrician2', 'a lawyer', 'a scientist', 'a pilot'
+]
+data = {
+    'firstname': [random.choice(first_names) for _ in range(50)],
+    'occupation_response': [random.choice(occupations) for _ in range(50)]
+}
+df = pd.DataFrame(data)
+
+# 2. Clean the text
+stop_words = set([
+    'i','me','my','myself','we','our','ours','ourselves','you','your','yours',
+    'yourself','yourselves','he','him','his','himself','she','her','hers',
+    'herself','it','its','itself','they','them','their','theirs','themselves',
+    'what','which','who','whom','this','that','these','those','am','is','are',
+    'was','were','be','been','being','have','has','had','having','do','does',
+    'did','doing','a','an','the','and','but','if','or','because','as','until',
+    'while','of','at','by','for','with','about','against','between','into',
+    'through','during','before','after','above','below','to','from','up','down',
+    'in','out','on','off','over','under','again','further','then','once','here',
+    'there','when','where','why','how','all','any','both','each','few','more',
+    'most','other','some','such','no','nor','not','only','own','same','so',
+    'than','too','very','s','t','can','will','just','don','should','now'
+])
+
+def clean_text(text):
+    # Convert to lowercase
+    text = text.lower()
+    # Remove punctuation and numbers
+    text = text.translate(str.maketrans('', '', string.punctuation + string.digits))
+    # Tokenize and remove stopwords
+    tokens = [word for word in text.split() if word not in stop_words]
+    return ' '.join(tokens)
+
+df['cleaned_occupation'] = df['occupation_response'].apply(clean_text)
+
+# 3. Tokenize text and calculate most frequent words
+all_words = ' '.join(df['cleaned_occupation']).split()
+word_freq = Counter(all_words)
+most_common_words = word_freq.most_common(10)
+most_common_words_str = ', '.join([f"{word}:{count}" for word, count in most_common_words])
+
+# Add the most frequent words as a new column (same value for all rows)
+df['most_frequent_words'] = most_common_words_str
+
+# 4. Create a simple occupation keyword dictionary that maps common terms to ISCO codes
+occupation_dict = {
+    'teacher': '2341',
+    'doctor': '2211',
+    'engineer': '2512',
+    'nurse': '2221',
+    'driver': '8322',
+    'farmer': '6111',
+    'accountant': '2411',
+    'mechanic': '7231',
+    'chef': '3434',
+    'police': '5412',
+    'analyst': '2421',
+    'construction': '9313',
+    'artist': '2651',
+    'sales': '3322',
+    'cleaner': '9112',
+    'waiter': '5131',
+    'electrician': '7411',
+    'lawyer': '2611',
+    'scientist': '2113',
+    'pilot': '3153'
+}
+
+# 5. Write a function that assigns ISCO codes based on keyword matching
+def assign_isco(text):
+    for keyword, code in occupation_dict.items():
+        if keyword in text:
+            return code
+    return ''
+
+# 6. Apply the function to the dataset and create a new column ISCO_code
+df['ISCO_code'] = df['cleaned_occupation'].apply(assign_isco)
+
+# 7. Export the updated dataset as firstname_labour_force_coded.csv
+df.to_csv('data\Amyrah_labour_force_coded.csv', index=False)
+
+print("Exported to Amyrah_labour_force_coded.csv")

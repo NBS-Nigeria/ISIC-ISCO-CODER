@@ -1,0 +1,51 @@
+firstname,occupation_response,cleaned_occupation,most_frequent_words,ISCO_code
+Lucky,a waiter,waiter,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",5131
+Ernest,a pilot,pilot,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",3153
+Ernest,a  data analyst,data analyst,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2421
+Sini,a construction worker,construction worker,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",9313
+Ammira,a farmer,farmer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",6111
+Ernest,a car mechanic,car mechanic,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",7231
+Amina,a waiter,waiter,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",5131
+Sini,driver for a car,driver car,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",8322
+Siyudi,a waiter,waiter,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",5131
+Stanley,an electrician2,electrician,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",7411
+Salihijo,an artist,artist,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2651
+Sini,a police officer ,police officer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",5412
+Lucky,a  data analyst,data analyst,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2421
+Lucky,an electrician2,electrician,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",7411
+Zarah,an artist,artist,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2651
+Lucky,a cleaner ,cleaner,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",9112
+Salihijo,a software-engineer,softwareengineer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2512
+Siyudi,a lawyer,lawyer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2611
+Stanley,a software-engineer,softwareengineer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2512
+Lucky,a lawyer,lawyer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2611
+Sini,a software-engineer,softwareengineer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2512
+Ammira,driver for a car,driver car,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",8322
+Amina,an artist,artist,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2651
+Ernest,a sales-manager,salesmanager,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",3322
+Ernest,a software-engineer,softwareengineer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2512
+Ernest,an electrician2,electrician,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",7411
+Salihijo,a construction worker,construction worker,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",9313
+Ernest,a police officer ,police officer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",5412
+Zarah,a waiter,waiter,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",5131
+Salihijo,a nurse,nurse,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2221
+Lucky,a car mechanic,car mechanic,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",7231
+Stanley,an accountant,accountant,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2411
+Stanley,driver for a car,driver car,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",8322
+Lucky,a construction worker,construction worker,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",9313
+Lucky,a farmer,farmer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",6111
+Sini,a car mechanic,car mechanic,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",7231
+Amina,a cleaner ,cleaner,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",9112
+Siyudi,a nurse,nurse,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2221
+Lucky,a cleaner ,cleaner,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",9112
+Siyudi,an electrician2,electrician,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",7411
+Sini,a lawyer,lawyer,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2611
+Salihijo,a teacher1,teacher,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2341
+Sini,a chef,chef,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",3434
+Siyudi,a teacher1,teacher,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2341
+Lucky,a  data analyst,data analyst,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2421
+Sini,a chef,chef,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",3434
+Ammira,a nurse,nurse,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2221
+Stanley,a construction worker,construction worker,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",9313
+Stanley,an electrician2,electrician,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",7411
+Amina,a  data analyst,data analyst,"car:6, electrician:5, waiter:4, data:4, analyst:4, construction:4, worker:4, softwareengineer:4, mechanic:3, driver:3",2421
