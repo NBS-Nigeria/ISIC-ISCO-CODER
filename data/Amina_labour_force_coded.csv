@@ -1,0 +1,51 @@
+firstname,occupation_response,cleaned_occupation,most_frequent_words,ISCO_code
+Ernest,a construction worker,construction worker,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",9313
+Ernest,a  data analyst,data analyst,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2421
+Ernest,a  doctor,doctor,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2211
+Lucky,an accountant,accountant,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2411
+Moses,an artist,artist,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2651
+Stanley,a police officer ,police officer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",5412
+Salihijo,a  doctor,doctor,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2211
+Ernest,a farmer,farmer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",6111
+Lucky,a chef,chef,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",3434
+Lucky,driver for a car,driver car,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",8322
+Stanley,a scientist,scientist,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2113
+Ammira,a waiter,waiter,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",5131
+Ammira,a chef,chef,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",3434
+Sini,a scientist,scientist,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2113
+Amina,a sales-manager,salesmanager,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",3322
+Ernest,a waiter,waiter,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",5131
+Salihijo,a  data analyst,data analyst,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2421
+Ernest,a lawyer,lawyer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2611
+Siyudi,a pilot,pilot,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",3153
+Stanley,a car mechanic,car mechanic,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",7231
+Stanley,a chef,chef,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",3434
+Salihijo,a farmer,farmer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",6111
+Stanley,a farmer,farmer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",6111
+Sini,an electrician2,electrician,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",7411
+Salihijo,a teacher1,teacher,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2341
+Siyudi,a waiter,waiter,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",5131
+Lucky,a police officer ,police officer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",5412
+Zarah,an artist,artist,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2651
+Zarah,a chef,chef,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",3434
+Zarah,a car mechanic,car mechanic,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",7231
+Ammira,driver for a car,driver car,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",8322
+Amina,a nurse,nurse,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2221
+Moses,a police officer ,police officer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",5412
+Salihijo,a car mechanic,car mechanic,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",7231
+Stanley,a scientist,scientist,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2113
+Moses,an accountant,accountant,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2411
+Stanley,a pilot,pilot,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",3153
+Amina,a chef,chef,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",3434
+Salihijo,a scientist,scientist,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2113
+Amina,a chef,chef,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",3434
+Zarah,a lawyer,lawyer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2611
+Moses,a  doctor,doctor,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2211
+Ammira,a teacher1,teacher,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2341
+Stanley,a waiter,waiter,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",5131
+Moses,a software-engineer,softwareengineer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2512
+Lucky,an accountant,accountant,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2411
+Ernest,a police officer ,police officer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",5412
+Stanley,a police officer ,police officer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",5412
+Lucky,a lawyer,lawyer,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2611
+Salihijo,a  data analyst,data analyst,"chef:6, police:5, officer:5, car:5, scientist:4, waiter:4, data:3, analyst:3, doctor:3, accountant:3",2421
