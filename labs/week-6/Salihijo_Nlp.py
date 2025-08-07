@@ -6,9 +6,9 @@ from collections import Counter
 # 1. Simulate your dataset
 first_names = ['Salihijo', 'Moses', 'Amina', 'Ernest', 'Ammira', 'Sini', 'Stanley', 'Siyudi', 'Lucky', 'Zarah']
 occupations = [
-    'a teacher1', 'a  doctor', 'a software-engineer', 'a nurse', 'driver for a car', 'a farmer', 'an accountant',
-    'a car mechanic', 'a chef', 'a police officer ', 'a  data analyst', 'a construction worker', 'an artist',
-    'a sales-manager', 'a cleaner ', 'a waiter', 'an electrician2', 'a lawyer', 'a scientist', 'a pilot'
+    'she is a teacher1', 'only a  doctor', 'he is a software-engineer', 'a nurse', 'driver for a car', 'a farmer', 'an accountant',
+    'a car mechanic man', 'a chef', 'a police officer ', 'a  data analyst', 'a construction worker', 'an artist',
+    'a sales-manager', 'a cleaner ', 'a waiter', 'an electrician2', 'a lawyer', 'a scientist', 'a pilot', 'he is into buying and selling cars'
 ]
 data = {
     'firstname': [random.choice(first_names) for _ in range(50)],
@@ -48,6 +48,7 @@ all_words = ' '.join(df['cleaned_occupation']).split()
 word_freq = Counter(all_words)
 most_common_words = word_freq.most_common(10)
 most_common_words_str = ', '.join([f"{word}:{count}" for word, count in most_common_words])
+print ("Most common words:", most_common_words_str)
 
 # Add the most frequent words as a new column (same value for all rows)
 df['most_frequent_words'] = most_common_words_str
@@ -86,7 +87,15 @@ def assign_isco(text):
 # 6. Apply the function to the dataset and create a new column ISCO_code
 df['ISCO_code'] = df['cleaned_occupation'].apply(assign_isco)
 
-# 7. Export the updated dataset as firstname_labour_force_coded.csv
+# 7. Write a function that calculates word frequency for each row
+def row_word_freq(text):
+    tokens = text.split()
+    freq = Counter(tokens)
+    return ', '.join([f"{word}:{count}" for word, count in freq.items()])
+
+df['most_frequent_words'] = df['cleaned_occupation'].apply(row_word_freq)
+
+# 8. Export the updated dataset as firstname_labour_force_coded.csv
 df.to_csv('data\Salihijo_labour_force_coded.csv', index=False)
 
 print("Exported to Salihijo_labour_force_coded.csv")

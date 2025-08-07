@@ -1,51 +1,51 @@
 firstname,occupation_response,cleaned_occupation,most_frequent_words,ISCO_code
-Moses,an artist,artist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2651
-Salihijo,an artist,artist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2651
-Zarah,a  doctor,doctor,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2211
-Sini,an artist,artist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2651
-Zarah,a farmer,farmer,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",6111
-Lucky,a sales-manager,salesmanager,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",3322
-Ernest,a software-engineer,softwareengineer,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2512
-Siyudi,an electrician2,electrician,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",7411
-Siyudi,an accountant,accountant,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2411
-Stanley,a pilot,pilot,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",3153
-Siyudi,a construction worker,construction worker,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",9313
-Zarah,an artist,artist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2651
-Moses,a pilot,pilot,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",3153
-Sini,a nurse,nurse,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2221
-Amina,an accountant,accountant,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2411
-Lucky,a cleaner ,cleaner,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",9112
-Ernest,an accountant,accountant,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2411
-Siyudi,a  doctor,doctor,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2211
-Stanley,a waiter,waiter,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5131
-Moses,an electrician2,electrician,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",7411
-Stanley,a police officer ,police officer,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5412
-Lucky,a police officer ,police officer,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5412
-Sini,a waiter,waiter,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5131
-Salihijo,a police officer ,police officer,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5412
-Ammira,a waiter,waiter,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5131
-Lucky,a lawyer,lawyer,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2611
-Moses,a sales-manager,salesmanager,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",3322
-Moses,a  data analyst,data analyst,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2421
-Zarah,a chef,chef,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",3434
-Zarah,a waiter,waiter,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5131
-Ernest,a cleaner ,cleaner,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",9112
-Ernest,a scientist,scientist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2113
-Zarah,a waiter,waiter,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5131
-Amina,a sales-manager,salesmanager,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",3322
-Lucky,a  doctor,doctor,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2211
-Ammira,a scientist,scientist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2113
-Siyudi,an accountant,accountant,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2411
-Sini,a software-engineer,softwareengineer,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2512
-Ammira,an artist,artist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2651
-Lucky,a construction worker,construction worker,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",9313
-Amina,a teacher1,teacher,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2341
-Amina,a scientist,scientist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2113
-Ammira,an artist,artist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2651
-Lucky,a chef,chef,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",3434
-Lucky,a scientist,scientist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2113
-Siyudi,a scientist,scientist,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2113
-Siyudi,a pilot,pilot,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",3153
-Siyudi,a software-engineer,softwareengineer,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",2512
-Lucky,a police officer ,police officer,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5412
-Amina,a waiter,waiter,"artist:6, waiter:6, scientist:5, accountant:4, police:4, officer:4, doctor:3, salesmanager:3, softwareengineer:3, pilot:3",5131
+Amina,a construction worker,construction worker,"construction:1, worker:1",9313
+Lucky,she is a teacher1,teacher,teacher:1,2341
+Stanley,a car mechanic man,car mechanic man,"car:1, mechanic:1, man:1",7231
+Salihijo,a scientist,scientist,scientist:1,2113
+Amina,a police officer ,police officer,"police:1, officer:1",5412
+Sini,a police officer ,police officer,"police:1, officer:1",5412
+Moses,an artist,artist,artist:1,2651
+Salihijo,an electrician2,electrician,electrician:1,7411
+Zarah,an accountant,accountant,accountant:1,2411
+Ernest,a nurse,nurse,nurse:1,2221
+Moses,a sales-manager,salesmanager,salesmanager:1,3322
+Stanley,a car mechanic man,car mechanic man,"car:1, mechanic:1, man:1",7231
+Lucky,a sales-manager,salesmanager,salesmanager:1,3322
+Lucky,a chef,chef,chef:1,3434
+Lucky,only a  doctor,doctor,doctor:1,2211
+Amina,a scientist,scientist,scientist:1,2113
+Siyudi,a car mechanic man,car mechanic man,"car:1, mechanic:1, man:1",7231
+Sini,an accountant,accountant,accountant:1,2411
+Salihijo,a farmer,farmer,farmer:1,6111
+Stanley,a construction worker,construction worker,"construction:1, worker:1",9313
+Sini,an accountant,accountant,accountant:1,2411
+Zarah,a sales-manager,salesmanager,salesmanager:1,3322
+Amina,a nurse,nurse,nurse:1,2221
+Sini,a car mechanic man,car mechanic man,"car:1, mechanic:1, man:1",7231
+Sini,she is a teacher1,teacher,teacher:1,2341
+Amina,a farmer,farmer,farmer:1,6111
+Ernest,a pilot,pilot,pilot:1,3153
+Sini,a sales-manager,salesmanager,salesmanager:1,3322
+Ernest,he is into buying and selling cars,buying selling cars,"buying:1, selling:1, cars:1",
+Amina,a cleaner ,cleaner,cleaner:1,9112
+Amina,a construction worker,construction worker,"construction:1, worker:1",9313
+Stanley,she is a teacher1,teacher,teacher:1,2341
+Stanley,a car mechanic man,car mechanic man,"car:1, mechanic:1, man:1",7231
+Zarah,an artist,artist,artist:1,2651
+Zarah,only a  doctor,doctor,doctor:1,2211
+Ernest,a pilot,pilot,pilot:1,3153
+Siyudi,a chef,chef,chef:1,3434
+Zarah,a lawyer,lawyer,lawyer:1,2611
+Stanley,a cleaner ,cleaner,cleaner:1,9112
+Ernest,a construction worker,construction worker,"construction:1, worker:1",9313
+Stanley,a chef,chef,chef:1,3434
+Lucky,an electrician2,electrician,electrician:1,7411
+Moses,he is into buying and selling cars,buying selling cars,"buying:1, selling:1, cars:1",
+Salihijo,a construction worker,construction worker,"construction:1, worker:1",9313
+Zarah,a cleaner ,cleaner,cleaner:1,9112
+Stanley,a police officer ,police officer,"police:1, officer:1",5412
+Stanley,he is into buying and selling cars,buying selling cars,"buying:1, selling:1, cars:1",
+Zarah,he is into buying and selling cars,buying selling cars,"buying:1, selling:1, cars:1",
+Salihijo,an accountant,accountant,accountant:1,2411
+Lucky,a cleaner ,cleaner,cleaner:1,9112
