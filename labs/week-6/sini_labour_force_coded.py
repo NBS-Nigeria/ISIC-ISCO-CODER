@@ -5,13 +5,13 @@ from collections import Counter
 # Simulate a dataset
 data = {
     'id': [1, 2, 3, 4, 5],
-    'name': ['Jane', 'Mike', 'John', 'Chinwe', 'OkadigboMustapha'],
+    'name': ['Jane', 'Mike', 'John', 'Chinwe', 'Mustapha'],
     'occupation': [
-        'AEDC, Nepa Elect Engr2 AEDC',
-        'Civil servant, (account)',
-        'buying and selling, market trader',
-        'Graphic Designer - Printing press',
-        'Gaenacology Spec'
+        'doctor, junior dr JUTH',
+        'accountant, (DFA)',
+        ' Network and communications, technician',
+        'Designer - Printing press',
+        'musician Album'
     ]
 }   
 
@@ -28,9 +28,9 @@ def clean_text(text):
     text = text.translate(str.maketrans('', '', string.punctuation))
 
     replacements = {
+        'dr': 'doctor',
         'engr': 'engineer',
-        'spec': 'specialist',
-        'elect': 'electrician',
+        'tech': 'technician',
         'account': 'accountant',
     }
     for wrong, right in replacements.items():
@@ -66,13 +66,13 @@ print(df[['name','occupation', 'cleaned_occupation', 'word_count']])
 
 # create ISCO code dictionary
 isco_codes = {
-    'engineer': 'ISCO-213',
-    'electrician': 'ISCO-7411',
+    'technician': 'ISCO-213',
+    'doctor': 'ISCO-7411',
     'accountant': 'ISCO-2411',
-    'specialist': 'ISCO-2211',
+    'musician': 'ISCO-2211',
     'trader': 'ISCO-5221',
-    'designer': 'ISCO-2166',
-    'servant': 'ISCO-4110',
+    'engineer': 'ISCO-2166',
+    'veteran': 'ISCO-4110',
 }
 
 # Function to assign ISCO codes based on keyword matching
