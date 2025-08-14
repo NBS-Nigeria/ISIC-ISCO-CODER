@@ -45,4 +45,12 @@ gdf_merged.plot(
 )
 ax.set_title('Underemployment Rate by State – Nigeria (2023)', fontsize=16)
 ax.axis('off')
+
+# Get legend and reposition
+legend = ax.get_legend()
+legend.set_bbox_to_anchor((0, 1))  # (x, y) coordinates relative to plot
+legend.set_frame_on(True)          # Show frame around legend
+
+# Save before plt.show()
+plt.savefig('underemployment_map.jpg', dpi=300, bbox_inches='tight')  
 plt.show()
