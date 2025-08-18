@@ -1,0 +1,196 @@
+---
+title: "Control Flow, Loops, and Functions in Python"
+format:
+  html:
+    self-contained: true
+jupyter: python3
+---
+
+## Learning Objectives
+
+- Use `if` statements to control code execution
+- Use `for` loops to repeat actions
+- Write custom Python functions
+- Apply control flow to Gapminder data (focus: Nigeria)
+
+---
+
+## Brief Overview
+
+### For Loop
+
+```{python}
+for i in range(2):  # Repeat 2 times
+    print("Happy birthday to you")
+
+print("Happy birthday dear Ose")
+print("Happy birthday to you")
+```
+
+### while Loop
+
+```{python}
+count = 0
+
+while count < 4:
+    if count == 2:
+        print("Happy birthday dear Ose")
+    else:
+        print("Happy birthday to you")
+    
+    count += 1
+```
+
+### If, Elif, and Else
+
+```{python}
+language = "french"
+if language == "english":
+    print("Happy birthday to you")
+    print("Happy birthday to you")
+    print("Happy birthday dear Ose")
+    print("Happy birthday to you")
+
+elif language == "spanish":
+    print("Cumpleaños feliz")
+    print("Cumpleaños feliz")
+    print("Te deseamos, Ose")
+    print("Cumpleaños feliz")
+
+else:
+    print("No birthday song for you!")
+```
+
+### Function
+
+```{python}
+def sing_birthday(language):
+    if language == "english":
+        print("Happy birthday to you")
+    elif language == "spanish":
+        print("Cumpleaños feliz")
+    else:
+        print("No song for you 😶")
+```
+
+```{python}
+# Run the function
+sing_birthday("spanish")  
+```
+
+---
+
+## Load and Filter Gapminder Data
+
+```{python}
+import pandas as pd
+
+# Load dataset and filter for Nigeria
+df = pd.read_csv("../../data/gapminder.csv")
+nigeria = df[df['country'] == 'Nigeria']
+nigeria.head()
+nigeria.info()
+nigeria.describe()
+```
+
+---
+
+## Using Conditional Statements
+
+Check if GDP per capita was ever below $1,500.
+
+```{python}
+low_gdp_years = 0
+
+for index, row in nigeria.iterrows():
+    if row['gdpPercap'] < 1500:
+        print(f"In {row['year']}, GDP per capita was low: ${row['gdpPercap']:.2f}")
+        low_gdp_years += 1
+
+print(f"\nTotal years with GDP per capita under $1,500: {low_gdp_years}")
+```
+
+---
+
+## Classifying GDP Levels with a Function
+
+Define a function to label GDP as **low**, **medium**, or **high**.
+
+```{python}
+def classify_gdp(gdp):
+    if gdp < 1500:
+        return "low"
+    elif gdp < 3000:
+        return "medium"
+    else:
+        return "high"
+```
+
+Apply it to Nigeria data:
+
+```{python}
+nigeria['gdp_level'] = nigeria['gdpPercap'].apply(classify_gdp)
+nigeria[['year', 'gdpPercap', 'gdp_level']]
+```
+
+---
+
+## Loop with Function: Print Yearly GDP Category
+
+```{python}
+for index, row in nigeria.iterrows():
+    category = classify_gdp(row['gdpPercap'])
+    print(f"{row['year']}: GDP was {category}")
+```
+
+---
+
+## Comparing Two Years with a Function
+
+Create a function to compare GDP between two years.
+
+```{python}
+def compare_gdp(year1, year2, data):
+    gdp1 = data[data['year'] == year1]['gdpPercap'].values[0]
+    gdp2 = data[data['year'] == year2]['gdpPercap'].values[0]
+
+    if gdp2 > gdp1:
+        return f"GDP increased from {year1} to {year2} by ${gdp2 - gdp1:.2f}"
+    elif gdp2 < gdp1:
+        return f"GDP decreased from {year1} to {year2} by ${gdp1 - gdp2:.2f}"
+    else:
+        return f"GDP stayed the same between {year1} and {year2}"
+```
+
+Try the function:
+
+```{python}
+compare_gdp(1982, 1987, nigeria)
+```
+
+---
+
+## Add a Summary Table with Changes
+
+Add GDP change and growth labels:
+
+```{python}
+nigeria['gdp_change'] = nigeria['gdpPercap'].diff().round(2)
+nigeria['growth'] = nigeria['gdp_change'].apply(
+    lambda x: "increase" if x > 0 else ("decrease" if x < 0 else "no change")
+)
+nigeria[['year', 'gdpPercap', 'gdp_level', 'gdp_change', 'growth']]
+```
+
+---
+
+## Summary
+
+You’ve learned how to:
+
+- Use `if` to evaluate conditions  
+- Use `for` to repeat actions  
+- Create functions to reuse logic  
+- Analyze real data dynamically  
+
+```
