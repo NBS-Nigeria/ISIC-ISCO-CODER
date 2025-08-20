@@ -1,0 +1,84 @@
+---
+title: "Nigeria Labour Force Survey 2023"
+subtitle: "Employed Persons by Occupation (ISCO)"
+author: "umar siyudi"
+format: pptx
+---
+
+
+
+```{python}
+#| label: setup
+import pandas as pd
+from IPython.display import display, Markdown
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
+from great_tables import GT, md, html
+
+#Load dataset
+df = pd.read_csv('nlfs_2023.csv')
+
+#Drop all empty columns
+df = df.dropna(axis=1, how='all')
+
+# Clean sector names
+df['sector'] = df['sector'].str.strip()
+
+df.head()
+```
+
+**Please note**: the following text and data are drawn from p.26 of the [Nigeria Labour Force Survey Annual Report 2023](https://www.nigerianstat.gov.ng/elibrary/read/1241561) published by the NBS.
+
+---
+
+### EMPLOYED PERSONS BY OCCUPATION
+
+The [International Standard Classification of Occupations](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/) (ISCO) is a system developed by the [International Labour Organisation](https://www.ilo.org/) (ILO) to classify and categorize occupations worldwide. It provides a standardized framework for organizing and comparing information about occupations across different countries and regions. 
+
+```{python}
+#| label: fig-isco
+#| fig-cap: 'Employed Persons by Occupation'
+#| fig-cap-location: margin
+ax = df.plot.barh(x='sector', y='percent',
+             title='Employed Persons by Occupation', 
+             xlabel='', ylabel='',
+             color='#ec7034',
+             legend=False)
+ax.xaxis.set_major_formatter(mtick.PercentFormatter(decimals=0))
+```
+
+<br>
+
+```{python}
+#| label: isco-markdown
+services = df[(df.sector=='Services and sales workers')]['percent'].item()
+agricultural = df[(df.sector=='Skilled agricultural forestry and fishery workers')]['percent'].item()
+clerical = df[(df.sector=='Clerical support workers')]['percent'].item()
+
+display(Markdown(
+f"""
+The proportion of Services and sales workers was {round(services, 1)}%, skilled agricultural, forestry, and fishery was {round(agricultural, 1)}%, and clerical support workers represented {round(clerical, 1)}% of the workforce (see @fig-isco and @tbl-isco)
+"""
+))
+```
+
+<br>
+
+```{python}
+#| label: tbl-isco
+#| tbl-cap: 'Employed Persons by Occupation'
+#| tbl-cap-location: margin
+
+(
+    GT(df)
+    .tab_stub(rowname_col="sector")
+    .cols_label(
+        percent="%"
+    )
+    .tab_header(
+        title="Employed Persons by Occupation"
+    )
+    .tab_source_note(source_note="Source: Nigeria Labour Force Survey, 2023")
+    .opt_table_outline()
+)
+```
