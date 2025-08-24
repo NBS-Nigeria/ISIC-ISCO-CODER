@@ -22,7 +22,7 @@ merge.head()
 # Create a choropleth map
 fig, ax = plt.subplots(1, 1, figsize=(12, 8))
 merge.plot(column='Underemployment_rate', cmap='Greens', linewidth=0.8, ax=ax, edgecolor='0.8', legend=True)
-ax.set_title('Underemployment Rate by State in Nigeria')
+ax.set_title('NigerianUnderemployment Rate by State in Nigeria')
 ax.axis('off')
 plt.savefig(r"c:\Users\hp\OneDrive\Documents\ISIC-ISCO-CODER\ISIC-ISCO-CODER-5\labs\week-7\data\sini_Choropleth_Map.png", bbox_inches='tight')
 plt.show()
