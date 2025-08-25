@@ -1,0 +1,6 @@
+respondent_id,occupation_response,cleaned_text,ISCO_code
+1,Teacher in primary school,teacher primary school,ISCO-2341
+2,Works as a driver,works driver,ISCO-8322
+3,Software engineer,software engineer,ISCO-2152
+4,Farmer,farmer,ISCO-6111
+5,Unemployed,unemployed,ISCO-9999

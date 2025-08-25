@@ -1,0 +1,20 @@
+---
+title: "Habits"
+author: "Bashir Amina"
+format: revealjs
+---
+
+## Getting up
+
+- Pray to God
+- Make my bed
+- Freshen up
+- Have breakfast
+- Off to work
+
+## Going to sleep
+
+- Pray to God
+- Freshen up
+- Get in bed
+- Watch a movie till i sleep off

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b15d18b52f092ed142c201c25f2e895b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b15d18b52f092ed142c201c25f2e895b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b15d18b52f092ed142c201c25f2e895b = L.map(
+                "map_b15d18b52f092ed142c201c25f2e895b",
+                {
+                    center: [9.0586, 7.4898],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 16,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_59a9ac45dc11f8c3c61dd9837275e74c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_59a9ac45dc11f8c3c61dd9837275e74c.addTo(map_b15d18b52f092ed142c201c25f2e895b);
+        
+    
+            var marker_0a822c673f2ac4a2ed315905b4340a93 = L.marker(
+                [9.0586, 7.4898],
+                {
+}
+            ).addTo(map_b15d18b52f092ed142c201c25f2e895b);
+        
+    
+            var icon_be174e3d711a43d3d17a052e6b3da796 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b1a15beba163da29e6753417e57ba5a2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_db5fd0b91febd4d68ea3612da0010de0 = $(`<div id="html_db5fd0b91febd4d68ea3612da0010de0" style="width: 100.0%; height: 100.0%;"> <b>Ceddi Plaza, Central Business District, Abuja</b><br> <img src="https://www.mecsr.org/directory-shopping-centres/ceddi-plaza" alt="ceddiplaza3" style="width:300px; border:2px solid #555; margin:5px 0;"><br> <a href="https://www.mecsr.org/directory-shopping-centres/ceddi-plaza" target="_blank">View Larger Image</a><br> <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStMmidOEUlAsvmJS2LJK4Ti3vvJxtDDrtCsA&s" target="_blank">Visit Ceddi Plaza Website</a> </div>`)[0];
+                popup_b1a15beba163da29e6753417e57ba5a2.setContent(html_db5fd0b91febd4d68ea3612da0010de0);
+            
+        
+
+        marker_0a822c673f2ac4a2ed315905b4340a93.bindPopup(popup_b1a15beba163da29e6753417e57ba5a2)
+        ;
+
+        
+    
+    
+                marker_0a822c673f2ac4a2ed315905b4340a93.setIcon(icon_be174e3d711a43d3d17a052e6b3da796);
+            
+    
+            var marker_9037e2642b5585da62ceada96a37409f = L.marker(
+                [9.0582, 7.4891],
+                {
+}
+            ).addTo(map_b15d18b52f092ed142c201c25f2e895b);
+        
+    
+            var icon_a47b65e4a9e5f387e4b87041f0b0830f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21cf4f1a70154334685bba906ce033a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6347010f278ad8766c7c3544fdd51c14 = $(`<div id="html_6347010f278ad8766c7c3544fdd51c14" style="width: 100.0%; height: 100.0%;">NNPC Towers</div>`)[0];
+                popup_21cf4f1a70154334685bba906ce033a8.setContent(html_6347010f278ad8766c7c3544fdd51c14);
+            
+        
+
+        marker_9037e2642b5585da62ceada96a37409f.bindPopup(popup_21cf4f1a70154334685bba906ce033a8)
+        ;
+
+        
+    
+    
+                marker_9037e2642b5585da62ceada96a37409f.setIcon(icon_a47b65e4a9e5f387e4b87041f0b0830f);
+            
+    
+            var marker_dd8fed3d1d8df45cfb4611c308f391f9 = L.marker(
+                [9.0579, 7.4899],
+                {
+}
+            ).addTo(map_b15d18b52f092ed142c201c25f2e895b);
+        
+    
+            var icon_7cd46b3bca34ae17a6ffd57d695c18b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5162afaf5721f82d9d3609ce96a91a44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37fc888512d507b9e4d639e37dbebe6e = $(`<div id="html_37fc888512d507b9e4d639e37dbebe6e" style="width: 100.0%; height: 100.0%;">National Mosque</div>`)[0];
+                popup_5162afaf5721f82d9d3609ce96a91a44.setContent(html_37fc888512d507b9e4d639e37dbebe6e);
+            
+        
+
+        marker_dd8fed3d1d8df45cfb4611c308f391f9.bindPopup(popup_5162afaf5721f82d9d3609ce96a91a44)
+        ;
+
+        
+    
+    
+                marker_dd8fed3d1d8df45cfb4611c308f391f9.setIcon(icon_7cd46b3bca34ae17a6ffd57d695c18b9);
+            
+</script>
+</html>
