@@ -1,0 +1,50 @@
+```{python}
+import pandas as pd
+import geopandas as gpd
+import matplotlib.pyplot as plt
+import seaborn
+from mapclassify import EqualInterval, Quantiles, FisherJenks
+import folium
+```
+
+
+```{python}
+# Read the underemployment file
+underemployment = pd.read_csv(r'c:\Users\user\Documents\ISCO\ISIC-ISCO-CODER\data\underemployment.csv')
+
+# Read the Nigeria GeoJSON file
+nigeria = gpd.read_file(r'c:\Users\user\Documents\ISCO\ISIC-ISCO-CODER\data\Nigerian_States.geojson')
+```
+
+```{python}
+print(nigeria.columns)
+print(underemployment.columns)
+```
+
+
+```{python}
+# Merge datasets
+merge = nigeria.merge(underemployment, left_on='state', right_on='statename')
+merge.head()
+```
+
+```{python}
+# Rename 'rate' to 'Underemployment_rate'
+merge = merge.rename(columns={'rate': 'Underemployment_rate'})
+merge.head()
+```
+
+```{python}
+# Create a choropleth map
+fig, ax = plt.subplots(1, 1, figsize=(12, 8))
+merge.plot(column='Underemployment_rate', cmap='OrRd', linewidth=0.8, ax=ax, edgecolor='0.8', legend=True)
+ax.set_title('Underemployment Rate by State in Nigeria')
+ax.axis('off')
+plt.savefig(r'c:\Users\user\Documents\ISCO\ISIC-ISCO-CODER\data\Choropleth_Map.png', bbox_inches='tight')
+plt.show()
+```
+
+```{python}
+# Save the merged DataFrame
+merge.to_csv(r'c:\Users\user\Documents\ISCO\ISIC-ISCO-CODER\data\Merged_Nigeria_underemployment.csv', index=False)
+```
